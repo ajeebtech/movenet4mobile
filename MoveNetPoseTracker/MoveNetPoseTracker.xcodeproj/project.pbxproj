@@ -39,22 +39,16 @@
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		917B91E72EAFFAC000D81823 /* MoveNetPoseTracker */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-			);
 			path = MoveNetPoseTracker;
 			sourceTree = "<group>";
 		};
 		917B91F82EAFFAC100D81823 /* MoveNetPoseTrackerTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-			);
 			path = MoveNetPoseTrackerTests;
 			sourceTree = "<group>";
 		};
 		917B92022EAFFAC100D81823 /* MoveNetPoseTrackerUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-			);
 			path = MoveNetPoseTrackerUITests;
 			sourceTree = "<group>";
 		};
@@ -204,6 +198,7 @@
 				TargetAttributes = {
 					917B91E42EAFFAC000D81823 = {
 						CreatedOnToolsVersion = 16.2;
+						LastSwiftMigration = 1620;
 					};
 					917B91F42EAFFAC100D81823 = {
 						CreatedOnToolsVersion = 16.2;
@@ -448,6 +443,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MoveNetPoseTracker/Preview Content\"";
@@ -467,6 +463,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = gangsigns.MoveNetPoseTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -478,6 +475,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MoveNetPoseTracker/Preview Content\"";
